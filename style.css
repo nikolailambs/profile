@@ -1,0 +1,117 @@
+body {
+  background-color: #EDEDF4;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  color: #4C5760;
+}
+
+h1 {
+  color: #A20021;
+}
+
+div {
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  background: white;
+  padding: 30px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  /*border: 1px solid rgba(0, 0, 0, 0.1);*/
+}
+
+a {
+  text-decoration: none;
+  color: #4C5760;
+  font-size: 20px;
+}
+
+.link-red li a:hover {
+  color: #A20021;
+}
+
+.profile-size {
+   width: 170px;
+}
+
+.btn-red {
+  padding: 9px;
+  background: #A20021;
+  border-radius: 5px;
+  color: white;
+  line-height: 3;
+}
+
+.btn-red:hover {
+  background: #700625;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.img-size {
+  width: 170px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.txt-middle {
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.txt-padding td {
+  padding: 10px;
+}
+
+
+.movies-blue th h2 {
+  color: #E54B4B;
+  margin: 0 auto;
+}
+
+.cities-blue th h2 {
+  color: #00A7E1;
+}
+
+.cities-padding table {
+  margin: 0 auto;
+}
+
+.cities-size {
+  width: 100%;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+}
+
+.cities-size:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 2);
+  opacity: 0.2;
+}
+
+.cities-padding .hidden-text {
+position: relative;
+bottom: 230px;
+left: 100px;
+visibility: hidden;
+color: black;
+}
+
+.wrapper-image {
+  position: relative;
+  width: 600px;
+  height: 250px;
+}
+
+.wrapper-image:hover .hidden-text {
+  visibility:visible;
+}
+
+.city-text-size {
+  font-size: 30px;
+}
